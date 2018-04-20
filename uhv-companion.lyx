@@ -81,6 +81,35 @@
 
 \begin_layout Title
 The CINF UHV companion
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+The Basics
+\end_layout
+
+\begin_layout Standard
+The first part describes all the elements that will commonly be involved
+ in running and maintaining a UHV chamber.
 \end_layout
 
 \begin_layout Section
@@ -321,7 +350,7 @@ mbar).
 \end_layout
 
 \begin_layout Subsection
-TSPs
+Titanium supplimation pumps (TSP)
 \end_layout
 
 \begin_layout Standard
@@ -334,6 +363,14 @@ A TSP is also a closed type of pump.
  pumped more efficiently by the other pumps in the system.
  A TSP is very good at 'cleaning up' after an experiment that left the camber
  more dirty than what is normally wanted.
+\end_layout
+
+\begin_layout Section
+Pressure gauges
+\end_layout
+
+\begin_layout Standard
+FIXME WRITE
 \end_layout
 
 \begin_layout Section
@@ -465,6 +502,48 @@ An important thing to remember when baking is that you should always bake
  finger where all the desorbed contaminants will tend to re-adsorb.
  Once the chamber is cooled the cold spot will soon equilibrate with the
  rest of the chamber and your baking is ruined.
+\end_layout
+
+\begin_layout Part
+Additional Equipment
+\end_layout
+
+\begin_layout Standard
+This part describes general operating principle and operational range for
+ different additional equipment commonly used in conjunction with a UHV
+ chamber.
+\end_layout
+
+\begin_layout Section
+Leak valves
+\end_layout
+
+\begin_layout Standard
+FIXME WRITE OUT
+\end_layout
+
+\begin_layout Section
+Mass flow controllers (MFC)
+\end_layout
+
+\begin_layout Standard
+FIXME WRITE OUT
+\end_layout
+
+\begin_layout Section
+Pressure controllers (PC)
+\end_layout
+
+\begin_layout Standard
+FIXME WRITE OUT
+\end_layout
+
+\begin_layout Section
+Electron detectors
+\end_layout
+
+\begin_layout Standard
+FIXME WRITE OUT
 \end_layout
 
 \end_body
