@@ -1,9 +1,9 @@
-#LyX file created by tex2lyx 2.2
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
 \lyxformat 508
 \begin_document
 \begin_header
 \save_transient_properties true
-\origin /home/kenni/code/UHVCompanion/
+\origin unavailable
 \textclass article
 \begin_preamble
 \usepackage[pdftex]{graphicx}
@@ -12,8 +12,6 @@
 
 % Uncomment the following line to allow the usage of umlauts and other non-ASCII characters
 %\usepackage[utf8]{inputenc}
-
-
 \end_preamble
 \use_default_options false
 \maintain_unincluded_children false
@@ -90,32 +88,35 @@ Vacuum
 \end_layout
 
 \begin_layout Standard
-In the high vacuum world pressures are, due to historical reasons, normally measured in units of mbar or Torr which differ by a factor of 1.33. The two units are hence used more or less interchangeablely. A UHV system typically has a base pressure on the order of 
-\begin_inset Formula $\sim
-10^{-10}$
+In the high vacuum world pressures are, due to historical reasons, normally
+ measured in units of mbar or Torr which differ by a factor of 1.33.
+ The two units are hence used more or less interchangeablely.
+ A UHV system typically has a base pressure on the order of 
+\begin_inset Formula $\sim10^{-10}$
 \end_inset
 
 
 \begin_inset space \thinspace{}
-
 \end_inset
 
-mbar. Using rather simple and reasonable assumptions it can be shown that at a pressure of 
+mbar.
+ Using rather simple and reasonable assumptions it can be shown that at
+ a pressure of 
 \begin_inset Formula $10^{-6}$
 \end_inset
 
 
 \begin_inset space \thinspace{}
-
 \end_inset
 
-mbar every surface atom in the vacuum chamber will on average be hit by a molecule once every second. As a rule of thumb this means that at 
+mbar every surface atom in the vacuum chamber will on average be hit by
+ a molecule once every second.
+ As a rule of thumb this means that at 
 \begin_inset Formula $10^{-10}$
 \end_inset
 
 
 \begin_inset space \thinspace{}
-
 \end_inset
 
 mbar you can expect a clean sample to stay clean for approximately one hour.
@@ -126,16 +127,30 @@ Flanges
 \end_layout
 
 \begin_layout Standard
-Every vacuum chamber is surrounded by air. The pressure of ambient air is 
-\begin_inset Formula $10^3$
+Every vacuum chamber is surrounded by air.
+ The pressure of ambient air is 
+\begin_inset Formula $10^{3}$
 \end_inset
 
 
 \begin_inset space \thinspace{}
-
 \end_inset
 
-mbar or some 13 orders of magnitude higher than inside the chamber. This means that air is trying significantly hard to get inside the chamber and one must show a bit of carefulness to avoid this. Normally, every flange is packed with a copper gasket which is deformed from both sides by knifes cut in to the flanges. It is this deformation that ensures that the copper will make a perfect seal to both flanges. In order to achieve this, the bolts should be tightened reasonably hard, but not too much. Tightening too hard will only mean that it is hard to open the flanges and that you loose the possibility to tighten a bit extra in case of a leak. You should be careful to not tighten one bolt at a time, but distribute the applied force between the bolts to make sure you do not deform the gasket unevenly.
+mbar or some 13 orders of magnitude higher than inside the chamber.
+ This means that air is trying significantly hard to get inside the chamber
+ and one must show a bit of carefulness to avoid this.
+ Normally, every flange is packed with a copper gasket which is deformed
+ from both sides by knifes cut in to the flanges.
+ It is this deformation that ensures that the copper will make a perfect
+ seal to both flanges.
+ In order to achieve this, the bolts should be tightened reasonably hard,
+ but not too much.
+ Tightening too hard will only mean that it is hard to open the flanges
+ and that you loose the possibility to tighten a bit extra in case of a
+ leak.
+ You should be careful to not tighten one bolt at a time, but distribute
+ the applied force between the bolts to make sure you do not deform the
+ gasket unevenly.
 \end_layout
 
 \begin_layout Section
@@ -143,17 +158,19 @@ The content of air
 \end_layout
 
 \begin_layout Standard
-In daily life air might seem to be a harmless substance, but in reality it is terribly dirty, and you certainly do not want to have it inside your chamber. At 1
+In daily life air might seem to be a harmless substance, but in reality
+ it is terribly dirty, and you certainly do not want to have it inside your
+ chamber.
+ At 1
 \begin_inset space \thinspace{}
-
 \end_inset
 
 bar every molecule that exists in concentrations of 1
 \begin_inset space \thinspace{}
-
 \end_inset
 
-ppb will hit every surface atom once every second, basically meaning, that if you chamber has seen air you should regard it as polluted.
+ppb will hit every surface atom once every second, basically meaning, that
+ if you chamber has seen air you should regard it as polluted.
 \end_layout
 
 \begin_layout Section
@@ -161,24 +178,50 @@ Leak testing
 \end_layout
 
 \begin_layout Standard
-Leak testing is the art of finding the origin of a leak in the chamber. The way to attack this problem depends heavily on the size of the suspected leak. If the chamber is reasonably tight so that it can be pumped to below 
+Leak testing is the art of finding the origin of a leak in the chamber.
+ The way to attack this problem depends heavily on the size of the suspected
+ leak.
+ If the chamber is reasonably tight so that it can be pumped to below 
 \begin_inset Formula $10^{-5}$
 \end_inset
 
 
 \begin_inset space \thinspace{}
-
 \end_inset
 
-mbar, a mass spectrometer is the best form of leak testing. In this case leak-testing with helium is the preferred method. Helium is more or less the perfect molecule for this task since it a) only exists in absolutely minute amounts in air b) it is by far the smallest molecule in Nature and therefore the one that will most easily slip through a leak. The procedure is to measure mass 4 on the mass spectrometer while blowing helium on the chamber one flange at a time. If you measure a a signal on the mass spectrometer, you have found a leak. Remember that helium rises in air and for that reason it is wise to start from the top of the chamber. If the chamber does not have a mass spectrometer the ion gauge can be used to find at least rather large leaks. This works because the ionization energy of helium is much larger than that of both oxygen and nitrogen. If a leak is present a drop in the signal from the ion gauge will be seen when helium out-competes air in the vicinity of the leak.
+mbar, a mass spectrometer is the best form of leak testing.
+ In this case leak-testing with helium is the preferred method.
+ Helium is more or less the perfect molecule for this task since it a) only
+ exists in absolutely minute amounts in air b) it is by far the smallest
+ molecule in Nature and therefore the one that will most easily slip through
+ a leak.
+ The procedure is to measure mass 4 on the mass spectrometer while blowing
+ helium on the chamber one flange at a time.
+ If you measure a a signal on the mass spectrometer, you have found a leak.
+ Remember that helium rises in air and for that reason it is wise to start
+ from the top of the chamber.
+ If the chamber does not have a mass spectrometer the ion gauge can be used
+ to find at least rather large leaks.
+ This works because the ionization energy of helium is much larger than
+ that of both oxygen and nitrogen.
+ If a leak is present a drop in the signal from the ion gauge will be seen
+ when helium out-competes air in the vicinity of the leak.
 \end_layout
 
 \begin_layout Standard
-If the leak is large enough that the chamber cannot be pumped low enough to turn on the mass spectrometer life is a bit more difficult. In that case one is forced to randomly tighten flanges under the suspicion of being leak. If this also fails, another option is to back-fill the chamber with helium and use an outside sniffer connected to the leak tester to find the leak.
+If the leak is large enough that the chamber cannot be pumped low enough
+ to turn on the mass spectrometer life is a bit more difficult.
+ In that case one is forced to randomly tighten flanges under the suspicion
+ of being leak.
+ If this also fails, another option is to back-fill the chamber with helium
+ and use an outside sniffer connected to the leak tester to find the leak.
 \end_layout
 
 \begin_layout Standard
-Once the leak is found often the problem can be solved simply by tightening the flange. If this does not solve the problem, chances are, that the gasket is not mounted properly and you will have to open the flange.
+Once the leak is found often the problem can be solved simply by tightening
+ the flange.
+ If this does not solve the problem, chances are, that the gasket is not
+ mounted properly and you will have to open the flange.
 \end_layout
 
 \begin_layout Section
@@ -190,43 +233,64 @@ Turbo pumps
 \end_layout
 
 \begin_layout Standard
-The turbo pump is the true workhorse in a UHV-system. It works by spinning plates tilted at an angle very fast and thus it mechanically kicks the molecules out of the chamber. Once the molecule is out of the pump it reaches a roughing pump of the backside of the turbo that takes it the rest of the way to atmospheric pressure. For this kind of pump to work the pressure needs to be low enough that the molecule-molecule interactions are very small – meaning somewhere below 1
+The turbo pump is the true workhorse in a UHV-system.
+ It works by spinning plates tilted at an angle very fast and thus it mechanical
+ly kicks the molecules out of the chamber.
+ Once the molecule is out of the pump it reaches a roughing pump of the
+ backside of the turbo that takes it the rest of the way to atmospheric
+ pressure.
+ For this kind of pump to work the pressure needs to be low enough that
+ the molecule-molecule interactions are very small – meaning somewhere below
+ 1
 \begin_inset space \thinspace{}
-
 \end_inset
 
-mbar. A turbo pump is a more or less perfect pump in the sense that practically no back-flow occurs – no gas from the pre-vacuum side will enter the chamber. This gives the very nice property that even though it will of course not provide a perfect vacuum the turbo pump will provide a very clean vacuum consisting only of the gasses that are already in chamber. Thus it is possible to have a residual gas mixture containing only a few well known species.
+mbar.
+ A turbo pump is a more or less perfect pump in the sense that practically
+ no back-flow occurs – no gas from the pre-vacuum side will enter the chamber.
+ This gives the very nice property that even though it will of course not
+ provide a perfect vacuum the turbo pump will provide a very clean vacuum
+ consisting only of the gasses that are already in chamber.
+ Thus it is possible to have a residual gas mixture containing only a few
+ well known species.
 \end_layout
 
 \begin_layout Standard
-A turbo pump is not made to move large amounts of gas but it will work reliably up to at least 
+A turbo pump is not made to move large amounts of gas but it will work reliably
+ up to at least 
 \begin_inset Formula $10^{-2}$
 \end_inset
 
 
 \begin_inset space \thinspace{}
-
 \end_inset
 
-mbar, even for extended amounts of time, provided sufficient cooling and a good roughing pump capable of removing the gas from the backside of the pump fast enough. The workload of the pump can to some degree be measured from the current drawn by the pump, which can normally be seen on the control unit. A turbo pump should typically not draw more than 1–1,2
+mbar, even for extended amounts of time, provided sufficient cooling and
+ a good roughing pump capable of removing the gas from the backside of the
+ pump fast enough.
+ The workload of the pump can to some degree be measured from the current
+ drawn by the pump, which can normally be seen on the control unit.
+ A turbo pump should typically not draw more than 1–1,2
 \begin_inset space \thinspace{}
-
 \end_inset
 
 A for extended amounts of time.
 \end_layout
 
 \begin_layout Standard
-On a practical note; a turbo pump is spinning very fast (typically between 800 and 1500
+On a practical note; a turbo pump is spinning very fast (typically between
+ 800 and 1500
 \begin_inset space \thinspace{}
-
 \end_inset
 
 Hz depending on the size of the pump) which means that you should 
 \series bold
 NOT
 \series default
- try to move a spinning turbo unless you want to perform a very expensive demonstration of applied mechanics. Most pumps are by nature stationary but for instance the leak-tester has a turbo-pump that can in principle be moved.
+ try to move a spinning turbo unless you want to perform a very expensive
+ demonstration of applied mechanics.
+ Most pumps are by nature stationary but for instance the leak-tester has
+ a turbo-pump that can in principle be moved.
 \end_layout
 
 \begin_layout Subsection
@@ -234,16 +298,26 @@ Ion pumps
 \end_layout
 
 \begin_layout Standard
-An ion pump is closed pump meaning it will store the pumped molecules inside the pump itself. This obviously means that ion pumps should only be used at low pressures (typically below 
+An ion pump is closed pump meaning it will store the pumped molecules inside
+ the pump itself.
+ This obviously means that ion pumps should only be used at low pressures
+ (typically below 
 \begin_inset Formula $10^{-7}$
 \end_inset
 
 
 \begin_inset space \thinspace{}
-
 \end_inset
 
-mbar). At such low pressures it is possible to accumulate the pumped gasses even for extended amounts of time. Once in a while (typically at unpredictable times) the ion pump will release the some of enclosed gasses, typically noble gases which do not react very well with the wall of the pump. These gases must then be pumped away with a turbo pump. Ion pumps provides excellent base pressures and very conveniently have no moving parts.
+mbar).
+ At such low pressures it is possible to accumulate the pumped gasses even
+ for extended amounts of time.
+ Once in a while (typically at unpredictable times) the ion pump will release
+ the some of enclosed gasses, typically noble gases which do not react very
+ well with the wall of the pump.
+ These gases must then be pumped away with a turbo pump.
+ Ion pumps provides excellent base pressures and very conveniently have
+ no moving parts.
 \end_layout
 
 \begin_layout Subsection
@@ -251,7 +325,15 @@ TSPs
 \end_layout
 
 \begin_layout Standard
-A TSP is also a closed type of pump. It works by evaporating titanium on the surface of the pump itself. This titanium will then very efficiently bind some of the residual gas in the chamber. Next time the pump is run, the gas adsorbed close to the filamant will be released but in much more concentrated form, meaning that it will be pumped more efficiently by the other pumps in the system. A TSP is very good at 'cleaning up' after an experiment that left the camber more dirty than what is normally wanted.
+A TSP is also a closed type of pump.
+ It works by evaporating titanium on the surface of the pump itself.
+ This titanium will then very efficiently bind some of the residual gas
+ in the chamber.
+ Next time the pump is run, the gas adsorbed close to the filamant will
+ be released but in much more concentrated form, meaning that it will be
+ pumped more efficiently by the other pumps in the system.
+ A TSP is very good at 'cleaning up' after an experiment that left the camber
+ more dirty than what is normally wanted.
 \end_layout
 
 \begin_layout Section
@@ -259,7 +341,12 @@ Roughing pumps
 \end_layout
 
 \begin_layout Standard
-A roughing pumps purpose in life when placed in a UHV lab is normally to act as backing for the turbo pump. At CINF you will find typically two main kinds; the oil-lubricated pumps and non-lubricated pumps (so-called Scroll pumps). The oil-lubricated kind is by far the most common one. It will normally provide a vacuum between 
+A roughing pumps purpose in life when placed in a UHV lab is normally to
+ act as backing for the turbo pump.
+ At CINF you will find typically two main kinds; the oil-lubricated pumps
+ and non-lubricated pumps (so-called Scroll pumps).
+ The oil-lubricated kind is by far the most common one.
+ It will normally provide a vacuum between 
 \begin_inset Formula $10^{-2}$
 \end_inset
 
@@ -269,27 +356,48 @@ A roughing pumps purpose in life when placed in a UHV lab is normally to act as 
 
 
 \begin_inset space \thinspace{}
-
 \end_inset
 
-mbar, preferably closer to the latter value. If the pump is not able to reach 
+mbar, preferably closer to the latter value.
+ If the pump is not able to reach 
 \begin_inset Formula $5\times10^{-2}$
 \end_inset
 
- it is most likely in need of service. A scroll pump will not reach nearly the same ultimate pressure as a oil-lubricated pump. Normally one should keep an eye on the pressure of the roughing pump, it should stay quite constant, and any sign of an increased pressure is properly a sign of a pump that should be serviced.
+ it is most likely in need of service.
+ A scroll pump will not reach nearly the same ultimate pressure as a oil-lubrica
+ted pump.
+ Normally one should keep an eye on the pressure of the roughing pump, it
+ should stay quite constant, and any sign of an increased pressure is properly
+ a sign of a pump that should be serviced.
 \end_layout
 
 \begin_layout Standard
-An extremely important thing to be aware of is the composition of the residual gas in a roughing pump. For an oil-lubricated pump, the residual gas consist mostly of various organic compounds and for a scroll pump it consists mostly of air. In both cases the residual gas must be considered to be extremely dirty, why it is important that you never apply the pump in a way that will allow for backflow from the pump to reach your clean vacuum chamber. In normal operation this is ensured by the turbo pump but in situations where the roughing pump is pumping directly on the chamber one needs to think. If you are pumping down a vented chamber, everything is OK, you are going to bake the chamber anyway. If you are pumping down a system considered clean (high-pressure cells, load-locks and gas-lines come to mind) you must 
+An extremely important thing to be aware of is the composition of the residual
+ gas in a roughing pump.
+ For an oil-lubricated pump, the residual gas consist mostly of various
+ organic compounds and for a scroll pump it consists mostly of air.
+ In both cases the residual gas must be considered to be extremely dirty,
+ why it is important that you never apply the pump in a way that will allow
+ for backflow from the pump to reach your clean vacuum chamber.
+ In normal operation this is ensured by the turbo pump but in situations
+ where the roughing pump is pumping directly on the chamber one needs to
+ think.
+ If you are pumping down a vented chamber, everything is OK, you are going
+ to bake the chamber anyway.
+ If you are pumping down a system considered clean (high-pressure cells,
+ load-locks and gas-lines come to mind) you must 
 \series bold
 NOT
 \series default
- pump too low in pressure with the roughing pump. Stay in a pressure range no lower than 2 to 10
+ pump too low in pressure with the roughing pump.
+ Stay in a pressure range no lower than 2 to 10
 \begin_inset space \thinspace{}
-
 \end_inset
 
-mbar, which will ensure a high enough flow into the pump that essentially no residual gas will back-flow. From this pressure you can leak the gas into a turbo pump using a good quality valve.
+mbar, which will ensure a high enough flow into the pump that essentially
+ no residual gas will back-flow.
+ From this pressure you can leak the gas into a turbo pump using a good
+ quality valve.
 \end_layout
 
 \begin_layout Section
@@ -297,11 +405,26 @@ Valves
 \end_layout
 
 \begin_layout Standard
-At CINF you will typically find a certain variety of valves. Three main kinds exists as well as a number of other less common types. The three main types are the VAT valve, the Swagelok valve and various kinds of all-metal valves. The Swagelock and to a certain extent the VAT valve has the rather nice property, that the can be opened in a controlled way, allowing for a slow opening between two compartments. This is very practical when you want to leak a semi-high pressure into a turbo pump, which is for instance the case after pumping down a clean system with a roughing pump.
+At CINF you will typically find a certain variety of valves.
+ Three main kinds exists as well as a number of other less common types.
+ The three main types are the VAT valve, the Swagelok valve and various
+ kinds of all-metal valves.
+ The Swagelock and to a certain extent the VAT valve has the rather nice
+ property, that the can be opened in a controlled way, allowing for a slow
+ opening between two compartments.
+ This is very practical when you want to leak a semi-high pressure into
+ a turbo pump, which is for instance the case after pumping down a clean
+ system with a roughing pump.
 \end_layout
 
 \begin_layout Standard
-Every time one operates a valve, one needs to be aware of the current conditions on the two sides of the valve. Often one side of the valve is exposed to the vacuum and the other side may or may not also be pumped down. If it is not, and you open the valve, the gas from the high pressure side will equilibrate with the vacuum side resulting in contamination of the vacuum chamber.
+Every time one operates a valve, one needs to be aware of the current conditions
+ on the two sides of the valve.
+ Often one side of the valve is exposed to the vacuum and the other side
+ may or may not also be pumped down.
+ If it is not, and you open the valve, the gas from the high pressure side
+ will equilibrate with the vacuum side resulting in contamination of the
+ vacuum chamber.
 \end_layout
 
 \begin_layout Section
@@ -309,20 +432,39 @@ Baking
 \end_layout
 
 \begin_layout Standard
-After a chamber has been vented it has, as mentioned, been exposed to basically any unpleasant gas one can imagine. All this pollution needs to be removed. Some substances is easily removed just by pumping, but others forms layers on the inside of chamber which is not easily pumped away. Water and pumping oil are two notable substances showing this behavior. Even though the gasses will of course eventually be pumped away, the time constant for this is basically infinite and something must be done to increase the speed. The solution is to increase the temperature of the entire chamber, so-called baking. Normally baking is performed at temperatures around 150
+After a chamber has been vented it has, as mentioned, been exposed to basically
+ any unpleasant gas one can imagine.
+ All this pollution needs to be removed.
+ Some substances is easily removed just by pumping, but others forms layers
+ on the inside of chamber which is not easily pumped away.
+ Water and pumping oil are two notable substances showing this behavior.
+ Even though the gasses will of course eventually be pumped away, the time
+ constant for this is basically infinite and something must be done to increase
+ the speed.
+ The solution is to increase the temperature of the entire chamber, so-called
+ baking.
+ Normally baking is performed at temperatures around 150
 \begin_inset space \thinspace{}
-
 \end_inset
 
 
 \begin_inset Formula $^{\circ}C$
 \end_inset
 
-. At these temperatures the vapor pressure of the contaminants rises significantly and will desorb from the walls into the gas phase where it can be pumped efficiently. After a few days of baking, your chamber should be reasonable clean.
+.
+ At these temperatures the vapor pressure of the contaminants rises significantl
+y and will desorb from the walls into the gas phase where it can be pumped
+ efficiently.
+ After a few days of baking, your chamber should be reasonable clean.
 \end_layout
 
 \begin_layout Standard
-An important thing to remember when baking is that you should always bake all parts of a given volume at the same time. If any part of the chamber is not heated, this part will act as a cold finger where all the desorbed contaminants will tend to re-adsorb. Once the chamber is cooled the cold spot will soon equilibrate with the rest of the chamber and your baking is ruined.
+An important thing to remember when baking is that you should always bake
+ all parts of a given volume at the same time.
+ If any part of the chamber is not heated, this part will act as a cold
+ finger where all the desorbed contaminants will tend to re-adsorb.
+ Once the chamber is cooled the cold spot will soon equilibrate with the
+ rest of the chamber and your baking is ruined.
 \end_layout
 
 \end_body
